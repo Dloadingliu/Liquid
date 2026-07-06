@@ -8,3 +8,8 @@ Install Python dependencies strictly in accordance with the officially recommend
 ```python
 python wandb_liquidkt_train.py  --dataset_name assist2017 --use_wandb 1 --dropout 0.1 --dropout1 0.3 --learning_rate 0.005 --seed 3407 --emb_size 256 --emb_type qid
 ```
+#### Prediction command
+```python
+python wandb_predict.py --save_dir your/model/saved/directory
+```
+For hyperparameter tuning workflows, refer to the official technical documentation of pyKT or WandB.
